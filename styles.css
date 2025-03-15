@@ -1,0 +1,95 @@
+/* Enhanced Styles for Shortened URLs */
+.shorten-url {
+    border: 1px solid #007bff; /* Changed border color for better visibility */
+    border-radius: 8px; /* More rounded corners */
+    padding: 15px; /* Increased padding */
+    margin: 15px 0; /* Increased margin */
+    background-color: #f0f8ff; /* Light background for better contrast */
+}
+
+.shorten-url__original-url span,
+.shorten-url__clicks span,
+.shorten-url__created-at span,
+.shorten-url__updated-at span {
+    color: #333; /* Consistent text color */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+.shorten-url__short-url a {
+    color: #0056b3; /* Darker link color */
+    text-decoration: underline; /* Underline for links */
+}
+
+.container {
+    max-width: 600px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"] {
+    width: 100%; /* Full width for input fields */
+    padding: 15px; /* Increased padding */
+    margin: 10px 0;
+    border: 1px solid #007bff; /* Changed border color */
+    border-radius: 5px;
+    font-size: 16px; /* Increased font size */
+}
+
+button {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    background-color: #28a745; /* Green button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #007bff; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Styles for shortened URLs */
+.shorten-url-item {
+    border: 1px solid #007bff; /* Changed border color */
+    border-radius: 8px; /* More rounded corners */
+    padding: 15px; /* Increased padding */
+    margin: 15px 0; /* Increased margin */
+    background-color: #f0f8ff; /* Light background */
+}
+
+.shorten-url__original-url,
+.shorten-url__short-url,
+.shorten-url__clicks,
+.shorten-url__created-at,
+.shorten-url__updated-at {
+    color: #333; /* Consistent text color */
+}
+
+.shorten-url-container {
+    border: 2px solid #007bff; /* Enhanced border */
+    padding: 20px; /* Increased padding */
+    margin: 20px 0; /* Increased margin */
+    border-radius: 10px; /* More rounded corners */
+    background-color: #e9f5ff; /* Light blue background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+}
+li {
+    list-style: none;
+}
