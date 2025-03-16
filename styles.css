@@ -1,0 +1,120 @@
+.shorten-url {
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #f0f8ff;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+    button {
+        padding: 10px;
+        font-size: 14px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="url"] {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    button {
+        padding: 12px;
+    }
+}
+
+.shorten-url__original-url span,
+.shorten-url__clicks span,
+.shorten-url__created-at span,
+.shorten-url__updated-at span {
+    color: #333;
+    font-weight: bold;
+}
+
+.shorten-url__short-url a {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.shorten-url-item {
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #f0f8ff;
+}
+
+.shorten-url__original-url,
+.shorten-url__short-url,
+.shorten-url__clicks,
+.shorten-url__created-at,
+.shorten-url__updated-at {
+    color: #333;
+}
+
+.shorten-url-container {
+    border: 2px solid #007bff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: #e9f5ff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+li {
+    list-style: none;
+}
